@@ -41,7 +41,7 @@ Where Atores.Genero = 'F';
 Select Filmes.Nome, Generos.Genero
 FROM FilmesGenero
     INNER JOIN Filmes ON Filmes.Id = FilmesGenero.IdFilme
-    INNER JOIN Generos ON Generos.Id = FilmesGenero.IdGenero
+    INNER JOIN Generos ON Generos.Id = FilmesGenero.IdGenero;
 
 Select Filmes.Nome, Generos.Genero
 FROM FilmesGenero
